@@ -1,16 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hello world</title>
-    <url>/2022/04/06/hello-world-1/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>风过，云逝，衔觞，乐志。</title>
     <url>/2022/04/06/%E9%A3%8E%E8%BF%87%EF%BC%8C%E4%BA%91%E9%80%9D%EF%BC%8C%E8%A1%94%E8%A7%9E%EF%BC%8C%E4%B9%90%E5%BF%97%E3%80%82/</url>
     <content><![CDATA[<p>风过，云逝，衔觞，乐志。<br>　　花开，夜半，风过，天寒，跨驹上鞍，流离天涯之远，只为那美的不凡。自然的美，永远那么壮<br>阔，又那么细腻，那么令人陶醉。<br>　　夕阳斜，虽黄昏，却也无限美好，点点的金色笼罩着万物。每个事物舍去了本色承接着那最后的温<br>暖与辉煌。一盏清茶香气四溢，开阖，观六合之境，赏八荒之美，想必也会三月不知肉味吧。曹操曾高<br>歌：“何以解忧？唯有杜康。”而如今我却以为，感受自然，体会着生生不息，领略着千变万化之景，<br>也必忘却了忧，不见了愁吧。</p>
 <span id="more"></span>
 <p>　　亭前花盛，转眼间，又随风而逝，远去的瓣，扬扬洒洒，荡在穹庐之下，荡在地宇之上，静美，安<br>适。终也零落成了泥又碾作了尘，却也依旧芬芳如故。远去了辙，敞开了阖，风扬的歌，却不见花开<br>过，繁花盛而不娇，独自芬芳，带着芗，零乱了之后不为人所忆，不为人所赞，却也不恼，也不怨，护<br>着来日再盛的花，却不与人谔谔，这一份淡泊，一份无私，也正是自然给予的一份心境。<br>　　有人唱：“花开花落日复日，半醉半醒年复年。”也有人疑：“江畔何人初见月，江月何年初照<br>人？”更说出了“人生代代无穷已，江月年年只相似”的佳句。一壶酒，醉了心；一纸墨，芬芳了千<br>载；一轮月，却映照了万代。清风拂面，把酒临风，而或陶醉欣喜，却又有时，半面遮，独自悲伤。道<br>可道，非常道，名可名，非常名。”这份体会，这感受自然的心只有自己能品味吧。<br>　　“苍山如海，残阳似血”的壮阔，“何事长向别时圆”的惆怅，也是对自然的感触。对瓦砌玉雕的<br>欣赏和赏之琼瑶的欣然，不论望之纸鹞，不论赞深渊腾蛟都不及赏自然之美而不娇，广而不寥。<br>　　夜半，天寒，星火舞动飞溅，曲终了，断瑶弦，跨驹上鞍，流离天涯之远，半世狂癫，月盈间，举<br>目望，望问天，一壶酒，自斟筵。转瞬间，雨打过，杂乱了屋檐；风吹过，远送了南雁。而后却又雨过<br>天晴，花枝摺中自寻乐。又感叹夏花的绚烂，感伤秋叶的静美。感动于自然的美。<br>　　淡淡的风吹散了淡淡的云，淡淡的花四溢着淡淡的香，冬雪在时光匆匆间融化成了点滴的泪。不知<br>是在伤感这逝去的冬，还是因将至的春，喜极而泣。自然的情感是丰富的，是淡然中独特的体会。<br>　　人走过，太匆匆，纷繁乱世间，人们拾起了什么，又忘却了什么……<br>　　至人无己，神人无功，圣人无名，但愿人们忘却了自己，忘记了功名，却也不忘自然纷繁乱世间，<br>谁乱了眼，醉了心。感受着自然，感受着花盛纷繁，清风拂面，圆月生怜。同时又忘却了忧，忘记了<br>愁。最终赞叹，自然的美永远那么壮阔，那么细腻，那么值得感受。</p>
 ]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux的常用命令和vim编辑器</title>
+    <url>/2022/04/06/Linux%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8Cvim%E7%BC%96%E8%BE%91%E5%99%A8/</url>
+    <content><![CDATA[<p><code>提示：以下是本篇文章正文内容，下面案例可供参考</code></p>
+<h1 id="一、Linux的常用命令"><a href="#一、Linux的常用命令" class="headerlink" title="一、Linux的常用命令"></a>一、Linux的常用命令<span id="more"></span></h1><h2 id="1-切换目录命令cd："><a href="#1-切换目录命令cd：" class="headerlink" title="1.切换目录命令cd："></a>1.切换目录命令cd：</h2><p>  使用cd app    切换到app目录cd ..    切换到上一层目录cd &#x2F;        切换到系统根目录cd ~        切换到用户主目录cd -        切换到上一个所在目录</p>
+<p>使用tab键来补全文件路径</p>
+<h2 id="2．列出文件列表：ls-ll"><a href="#2．列出文件列表：ls-ll" class="headerlink" title="2．列出文件列表：ls ll"></a>2．列出文件列表：ls ll</h2><p>ls(list)是一个非常有用的命令，用来显示当前目录下的内容。配合参数的使用，能以不同的方式显示目录内容。    格式：ls[参数] [路径或文件名]<br>常用：<br>在linux中以 . 开头的文件都是隐藏的文件</p>
+<ul>
+<li>ls</li>
+<li>ls -a  显示所有文件或目录（包含隐藏的文件）</li>
+<li>ls -l  缩写成ll</li>
+</ul>
+<h2 id="3．创建目录和移除目录：mkdir-rmdir"><a href="#3．创建目录和移除目录：mkdir-rmdir" class="headerlink" title="3．创建目录和移除目录：mkdir rmdir"></a>3．创建目录和移除目录：mkdir rmdir</h2><p>mkdir(make directory)命令可用来创建子目录。mkdir app    在当前目录下创建app目录mkdir –p app2&#x2F;test   级联创建aap2以及test目</p>
+<p>rmdir(remove directory)命令可用来删除“空”的子目录：rmdir app    删除app目录</p>
+<h2 id="4．浏览文件"><a href="#4．浏览文件" class="headerlink" title="4．浏览文件"></a>4．浏览文件</h2><h3 id="【cat、more、less】"><a href="#【cat、more、less】" class="headerlink" title="【cat、more、less】"></a>【cat、more、less】</h3><p>cat用于显示文件的内容。格式：cat[参数]&lt;文件名&gt;</p>
+<pre><code>* cat yum.conf
+</code></pre>
+<p>more一般用于要显示的内容会超过一个画面长度的情况。按空格键显示下一个画面。<br>回车显示下一行内容。<br>按 q 键退出查看。</p>
+<ul>
+<li>more yum.conf<ul>
+<li>空格显示下一页数据  回车显示下一行的数据<br>less用法和more类似，不同的是less可以通过PgUp、PgDn键来控制。</li>
+<li>less yum.conf<ul>
+<li>PgUp 和 PgDn 进行上下翻页.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="【tail】"><a href="#【tail】" class="headerlink" title="【tail】"></a>【tail】</h3><p>tail命令是在实际使用过程中使用非常多的一个命令，它的功能是：用于显示文件后几行的内容。<br>用法:<br>tail -10 &#x2F;etc&#x2F;passwd    查看后10行数据<br>tail -f catalina.log    动态查看日志(*****)<br>ctrl+c 结束查看</p>
+<h2 id="5．文件操作："><a href="#5．文件操作：" class="headerlink" title="5．文件操作："></a>5．文件操作：</h2><h3 id="【rm】"><a href="#【rm】" class="headerlink" title="【rm】"></a>【rm】</h3><p>rm  删除文件<br>用法：rm [选项]… 文件…<br>rm a.txt    删除a.txt文件<br>删除需要用户确认，y&#x2F;nrm 删除不询问<br>rm -f a.txt    不询问，直接删除rm 删除目录<br>rm -r a    递归删除不询问递归删除（慎用）<br>rm -rf  a    不询问递归删除<br>rm -rf *      删除所有文件<br>rm -rf &#x2F;*      自杀</p>
+<h3 id="【cp、mv】"><a href="#【cp、mv】" class="headerlink" title="【cp、mv】"></a>【cp、mv】</h3><p>cp(copy)命令可以将文件从一处复制到另一处。一般在使用cp命令时将一个文件复制成另一个文件或复制到某目录时，需要指定源文件名与目标文件名或目录。<br>cp a.txt b.txt    将a.txt复制为b.txt文件<br>cp a.txt.&#x2F;    将a.txt文件复制到上一层目录中</p>
+<p>mv 移动或者重命名<br>mv a.txt ..&#x2F;    将a.txt文件移动到上一层目录中<br>mv a.txt b.txt    将a.txt文件重命名为b.txt</p>
+<h3 id="【tar】命令-打包或解压"><a href="#【tar】命令-打包或解压" class="headerlink" title="【tar】命令:(***** 打包或解压)"></a>【tar】命令:(***** 打包或解压)</h3><p>tar命令位于&#x2F;bin目录下，它能够将用户所指定的文件或目录打包成一个文件，但不做压缩。一般Linux上常用的压缩方式是选用tar将许多文件打包成一个文件，再以gzip压缩命令压缩成xxx.tar.gz(或称为xxx.tgz)的文件。常用参数：<br>-c：创建一个新tar文件<br>-v：显示运行过程的信息<br>-f：指定文件名<br>-z：调用gzip压缩命令进行压缩<br>-t：查看压缩文件的内容<br>-x：解开tar文件</p>
+<p>打包：<br>tar –cvf xxx.tar .&#x2F;*<br>打包并且压缩：<br>tar –zcvf xxx.tar.gz .&#x2F;*<br>解压<br>     tar –xvf xxx.tar<br>tar -zxvf xxx.tar.gz -C &#x2F;usr&#x2F;aaa</p>
+<h2 id="6．其他常用命令"><a href="#6．其他常用命令" class="headerlink" title="6．其他常用命令"></a>6．其他常用命令</h2><h3 id="【pwd】"><a href="#【pwd】" class="headerlink" title="【pwd】"></a>【pwd】</h3><p>显示当前所在目录</p>
+<h3 id="【touch】"><a href="#【touch】" class="headerlink" title="【touch】"></a>【touch】</h3><p>创建一个空文件</p>
+<ul>
+<li>touch a.txt<h3 id="【clear-x2F-crtl-L】"><a href="#【clear-x2F-crtl-L】" class="headerlink" title="【clear&#x2F; crtl + L】"></a>【clear&#x2F; crtl + L】</h3>清屏</li>
+</ul>
+<h1 id="二、Vi和Vim编辑器"><a href="#二、Vi和Vim编辑器" class="headerlink" title="二、Vi和Vim编辑器"></a>二、Vi和Vim编辑器</h1><h2 id="1-Vim编辑器："><a href="#1-Vim编辑器：" class="headerlink" title="1.Vim编辑器："></a>1.Vim编辑器：</h2><p>在Linux下一般使用vi编辑器来编辑文件。vi既可以查看文件也可以编辑文件。三种模式：命令行、插入、底行模式。<br>切换到命令行模式：按Esc键；<br>切换到插入模式：按 i 、o、a键；<br>    i 在当前位置前插入<br>    I 在当前行首插入<br>    a 在当前位置后插入<br>    A 在当前行尾插入<br>    o 在当前行之后插入一行<br>    O 在当前行之前插入一行</p>
+<p>切换到底行模式：按 :（冒号）；更多详细用法，查询文档《Vim命令合集.docx》和《vi使用方法详细介绍.docx》</p>
+<p>打开文件：vim file<br>退出：esc  :q<br>修改文件：输入i进入插入模式<br>保存并退出：esc:wq</p>
+<p>不保存退出：esc:q!</p>
+<p>三种进入插入模式：<br>i:在当前的光标所在处插入<br>o:在当前光标所在的行的下一行插入<br>a:在光标所在的下一个字符插入</p>
+<p>快捷键：<br>dd – 快速删除一行<br>yy - 复制当前行<br>nyy - 从当前行向后复制几行<br>p - 粘贴<br>R – 替换</p>
+<h2 id="2．重定向输出-gt-和-gt-gt"><a href="#2．重定向输出-gt-和-gt-gt" class="headerlink" title="2．重定向输出&gt;和&gt;&gt;"></a>2．重定向输出&gt;和&gt;&gt;</h2><blockquote>
+<p> 重定向输出，覆盖原有内容；&gt;&gt; 重定向输出，又追加功能；示例：<br>cat &#x2F;etc&#x2F;passwd &gt; a.txt  将输出定向到a.txt中<br>cat &#x2F;etc&#x2F;passwd &gt;&gt; a.txt  输出并且追加</p>
+</blockquote>
+<p>ifconfig &gt; ifconfig.txt</p>
+<h2 id="3．系统管理命令"><a href="#3．系统管理命令" class="headerlink" title="3．系统管理命令"></a>3．系统管理命令</h2><p>ps 正在运行的某个进程的状态<br>ps –ef  查看所有进程<br>ps –ef | grep ssh 查找某一进程<br>kill 2868  杀掉2868编号的进程<br>kill -9 2868  强制杀死进程</p>
+<h2 id="4．管道"><a href="#4．管道" class="headerlink" title="4．管道 |"></a>4．管道 |</h2><p>管道是Linux命令中重要的一个概念，其作用是将一个命令的输出用作另一个命令的输入。示例<br>ls –help | more  分页查询帮助信息<br>ps –ef | grep java  查询名称中包含java的进程</p>
+<p>ifconfig | more<br>cat index.html | more<br>ps –ef | grep aio</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>提示：这里对文章进行总结：<br>例如：以上就是今天要讲的内容，本文仅仅简单介绍了Linux常用指令的使用。</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
   </entry>
 </search>
